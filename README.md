@@ -29,7 +29,7 @@ starkli declare target/dev/erc_20_MonSmartContract.contract_class.json --network
 
 ## Déploiement
 ```bash
-erc_20 % starkli deploy $CLASS_HASH $ADRESSE_WALLET_SUPPLY_INITIAL --network sepolia
+starkli deploy $CLASS_HASH $ADRESSE_WALLET_SUPPLY_INITIAL --network sepolia
 ```
 
 # Inclusion dans ArgentX
